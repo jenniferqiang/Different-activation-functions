@@ -1,23 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 23 22:57:02 2019
 
-@author: zh846675
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 23 22:20:07 2019
-
-@author: zh846675
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 22 15:31:25 2019
-
-@author: zh846675
-"""
 import pandas as pd
 import numpy as np
 df=pd.read_csv(r'C:\Users\zh846675\MNIST\Matrix-200.csv').drop(['Unnamed: 0'],axis=1)
